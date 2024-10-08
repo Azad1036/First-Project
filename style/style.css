@@ -99,8 +99,12 @@ nav ul li a {
 }
 
 /* About related style */
-.about {
+.main {
     max-width: 969px;
+    margin: 0 auto;
+}
+
+.about {
     margin: 110px auto;
     border-radius: 10px;
 }
@@ -137,4 +141,43 @@ nav ul li a {
     color: #474747;
     font-size: 17px;
     font-weight: 700;
+}
+
+/* experience related style start */
+.experience-content {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 772px;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 21px;
+}
+
+.my-experience {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.language {
+    padding: 24px 0px;
+    padding-left: 30px;
+}
+
+.experience-title {
+    color: #181818;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 17px;
+    padding-left: 30px;
+}
+
+.experience-dis {
+    padding-left: 30px;
+    color: #757575;
+    font-size: 14px;
+    margin-bottom: 25px;
 }
