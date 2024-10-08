@@ -34,12 +34,21 @@
     background: #FFF8F3;
 }
 
+.header {
+    background: #FFF8F3;
+}
+
+i {
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+
 /* nav related style  */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 196px;
+    padding: 30px 196px;
 }
 
 .nav-title {
@@ -92,7 +101,7 @@ nav ul li a {
     margin-bottom: 23px;
 }
 
-.header {
+.main-content {
     background-image: url("/images/developer.png"), url("/images/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left, right bottom;
@@ -234,4 +243,72 @@ hr {
     font-size: 25px;
     margin-bottom: 27px;
     font-weight: 700;
+}
+
+.btn-primary-download {
+    padding: 15px 29px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.download-cv {
+    text-align: center;
+    margin-bottom: 96px;
+}
+
+/* resume related style end */
+/* footer related style start */
+.footer {
+    background: #FFF8F3;
+}
+
+.footer-section {
+    max-width: 969px;
+    margin: 0 auto;
+}
+
+.footer-container {
+    display: flex;
+    gap: 99px;
+}
+
+.footer-container {
+    padding: 111px 0px;
+}
+
+.contact-our-helpline {
+    color: #181818;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.contact-section-dis {
+    color: #474747;
+    font-size: 14px;
+    padding: 20px 0px;
+}
+
+.footer input[type="text"], input[type="email"] {
+    height: 54px;
+    border-radius: 5px;
+    background: #FFF;
+    width: 100%;
+    border: none;
+    margin-top: 21px;
+    padding: 15px 27px;
+    outline: none;
+}
+
+textarea {
+    border-radius: 5px;
+    background: #FFF;
+    width: 100%;
+    border: none;
+    margin-top: 21px;
+    padding: 15px 27px;
+    outline: none;
 }
